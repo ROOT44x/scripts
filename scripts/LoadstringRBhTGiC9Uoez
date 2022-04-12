@@ -1,0 +1,2 @@
+--A ONE PIECE GAME Script Pastebin 2022 UPDATE AUTO FARM | BRING FRUIT | WORK NEW AREA & MORE
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LioK251/Scripts/main/"..game.PlaceId..".lua"))()
