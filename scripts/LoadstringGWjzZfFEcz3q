@@ -1,0 +1,11 @@
+---PET SIMULATOR X | FREE HOVERBOARD | UNLOCK ALL HOVERBOAR 🐾
+local tbl = require(game.ReplicatedStorage.Framework.Modules.Client["4 | Save"]).Get()
+tbl.Hoverboards = {}
+for i,v in pairs(game.ReplicatedStorage.Game.Hoverboards:GetChildren())do
+table.insert(tbl.Hoverboards, v.Name)
+end
+getsenv(game.Players.LocalPlayer.PlayerScripts.Scripts.GUIs.Hoverboards).Update()
+getsenv(game.Players.LocalPlayer.PlayerScripts.Scripts.GUIs.Hoverboards).Equip = function(board)
+tbl.EquippedHoverboard = board
+getsenv(game.Players.LocalPlayer.PlayerScripts.Scripts.GUIs.Hoverboards).Update()
+end
