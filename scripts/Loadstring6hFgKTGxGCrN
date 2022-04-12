@@ -1,8 +1,0 @@
-local args = {
-        [1] = {
-            ["Option"] = "revive",
-            ["Resurrect"] = true
-        }
-    }
-
-    game:GetService("ReplicatedStorage").Events.PlayerDeath:FireServer(unpack(args))
